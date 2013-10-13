@@ -20,9 +20,13 @@ console.log(userMilesDriven4);
 var userPricePerGallon = prompt("How much is a gallon of gas locally?");
 console.log(userPricePerGallon);
 
-var totalMilesDriven = userMilesDriven1 + userMilesDriven2 + userMilesDriven3 + userMilesDriven4;
+var totalMilesDriven = Number(userMilesDriven1) + Number(userMilesDriven2) + Number(userMilesDriven3) + Number(userMilesDriven4);
+
 var gasTotal = (totalMilesDriven / userAvgMilesPer) * userPricePerGallon;
-var result = "You drove a total of " + totalMilesDriven + " miles, and spent $" +  +" on gas."
+
+var result = "You drove a total of " + totalMilesDriven + " miles, and spent $" + gasTotal +" on gas."
+
+alert(result);
 
 
 //this changes the css of your body tag to be green
