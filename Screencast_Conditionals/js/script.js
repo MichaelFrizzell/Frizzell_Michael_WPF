@@ -1,22 +1,27 @@
-// Conditional Logic _ Else If
+// Conditional Logic _ Logical Operators
 
-var kidHeight = 50;
-var minHeight = 48;
-var wParentHeight = 45; //the height kid has to be with parent present
+//var budget = 300;
+//var iPhonePrice = 199.99;
+//var payCheck = 200;
+//
+////If the price of the phone is less than our budget AND if our paycheck is over 300
+//if(iPhonePrice < budget && payCheck > 300){
+//    console.log("We can buy the phone");
+//}else{
+//    console.log("No phone for you!");
+//}
 
+var budget = 300;
+var iPhonePrice = 199.99;
+var wonLottery = true;
 
-// if the child is old enough, print to the console "you can ride!"
-// If the kid is over 48 inches in height
-if(kidHeight > minHeight){
-    // code performed if the condition is true
-    console.log("You can ride the coaster!");
-}else if(kidHeight > wParentHeight){
-    //you can ride with a parent present
-    console.log("You can ride, but only with a parent present")
+//If the price of the phone is less than our budget AND if our paycheck is over 300
+if(iPhonePrice < budget || wonLottery === true){
+    console.log("We can buy the phone");
 }else{
-    //sorry you have some growing to do
-    console.log("Sorry kid, you have got some growing to do first");
+    console.log("No phone for you!");
 }
+
 
 
 //this changes the css of your body tag to be green
