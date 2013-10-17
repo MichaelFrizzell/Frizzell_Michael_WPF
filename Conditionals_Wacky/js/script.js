@@ -9,3 +9,13 @@
 
 //Determine at what altitude a jumper has to open there parachute by depending on there skill level and parachute type.
 
+var userSkillLevel = prompt("Are you a tandem diver or skilled diver?");//Asks user if they are a tandem or skilled diver.
+console.log("userSkillLevel");//Prints out to console users response.
+
+var userChuteType = prompt("Is your parachute a regular or high performance parachute.");//Asks user what type of chute they are using.
+console.log("userChuteType");
+
+var skilledDiver = "skilled";
+var tandemDiver = "tandem";
+var regularChute = "regular";
+var highPerformanceChute = "high performance";
