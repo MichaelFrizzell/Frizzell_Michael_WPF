@@ -19,3 +19,11 @@ var skilledDiver = "skilled";
 var tandemDiver = "tandem";
 var regularChute = "regular";
 var highPerformanceChute = "high performance";
+
+if(userSkillLevel === skilledDiver && userChuteType === highPerformanceChute){
+    console.log("You are a " + skilledDiver + " diver using a " + highPerformanceChute + " parachute.\nPull the cord by 2500 feet.");
+}else if(userSkillLevel === skilledDiver && userChuteType != highPerformanceChute){
+    console.log("You are a " + skilledDiver + " diver and using a " + regularChute + " parachute.\nPull the cord at 3500 feet");
+}else{
+    console.log("You are a " + tandemDiver + " diver.\nPull the cord no later than 5000 feet");
+}
