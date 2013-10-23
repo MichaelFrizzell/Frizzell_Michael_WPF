@@ -1,5 +1,5 @@
 // Functions: ScreenCast Follow Along
-// Basic Structure
+// Function Execution
 
 function outptMsg(){
     console.log("Hello World");
@@ -12,3 +12,6 @@ function calcArea(){
     console.log(area);
 }
 
+calcArea();
+calcArea();
+calcArea();
