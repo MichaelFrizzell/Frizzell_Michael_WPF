@@ -1,4 +1,14 @@
-// JavaScript
+// Michael Frizzell
+// October 23, 2013
+// Functions_Worksheet
 
-//this changes the css of your body tag to be green
-document.querySelector("body").style.backgroundColor= "#00FF00";
+//CIRCUMFERENCE
+//Calculate the circumference of a circle
+//pi = 3.141592
+//radius = diameter/2
+//circumference = pi * radius
+
+
+
+
+
