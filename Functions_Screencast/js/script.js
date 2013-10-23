@@ -1,4 +1,14 @@
-// JavaScript
+// Functions: ScreenCast Follow Along
+// Basic Structure
 
-//this changes the css of your body tag to be green
-document.querySelector("body").style.backgroundColor= "#00FF00";
+function outptMsg(){
+    console.log("Hello World");
+}
+
+function calcArea(){
+    var width = 20;
+    var height = 30;
+    var area = width * height;
+    console.log(area);
+}
+
