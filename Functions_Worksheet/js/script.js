@@ -31,19 +31,19 @@ console.log(result);//prints results to console
 //“It takes X bee stings to kill this animal."
 
 var animalWeight = prompt("How much does the animal weigh?");//Asks user for animal weight
-console.log(animalWeight);prints to console animal weight
+console.log(animalWeight);//prints to console animal weight
 
-var stingsPerPound = 8.666666667;
+var stingsPerPound = 8.666666667;//sets variable for amount of stings need per pound
 
-var total = stingsNeeded(animalWeight, stingsPerPound);
+var total = stingsNeeded(animalWeight, stingsPerPound);//sets variable for function
 
-function stingsNeeded(w, spp){
-    var needed = w * spp;
-    return needed;
+function stingsNeeded(w, spp){//begins function
+    var needed = w * spp;//multiplies weight by stings per pound
+    return needed;//returns to variabl total stings needed
 }
 
-var result2 = ("It takes " + total + " bee stings to kill this animal.");
-console.log(result2);
+var result2 = ("It takes " + total + " bee stings to kill this animal.");//sets variable for results
+console.log(result2);//prints results
 
 
 
