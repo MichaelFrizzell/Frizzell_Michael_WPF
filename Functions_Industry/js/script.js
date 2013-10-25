@@ -51,6 +51,14 @@ console.log(over40Bonus);
 var bonus20_40 = totalSpecialsSold * specialPrice / 5;
 console.log(bonus20_40);
 
+if(totalSpecialsSold >= 40){
+    console.log("You have sold " + totalSpecialsSold + " specials, and are eligible for a $" + over40Bonus + "dollar bonus.");
+}else if(totalSpecialsSold >= 20 && totalSpecialsSold < 40){
+    console.log("You have sold " + totalSpecialsSold + " specials, and are eligible for a $" + bonus20_40 + " dollar bonus.");
+}else{
+    console.log("You have only sold " + totalSpecialsSold + " specials, you are not eligible for a bonus.");
+}
+
 
 
 
