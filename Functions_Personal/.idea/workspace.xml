@@ -26,7 +26,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="58" selection-end="58" vertical-scroll-proportion="0.04694836" vertical-offset="0" max-vertical-offset="639">
+            <state line="31" column="20" selection-start="941" selection-end="941" vertical-scroll-proportion="0.7276995" vertical-offset="0" max-vertical-offset="639">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -51,8 +51,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="334" />
-    <option name="y" value="33" />
+    <option name="x" value="-33" />
+    <option name="y" value="191" />
     <option name="width" value="1052" />
     <option name="height" value="787" />
   </component>
@@ -201,7 +201,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="334" y="33" width="1052" height="787" extended-state="0" />
+    <frame x="-33" y="191" width="1052" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -249,7 +249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="58" selection-end="58" vertical-scroll-proportion="0.04694836" vertical-offset="0" max-vertical-offset="639">
+        <state line="31" column="20" selection-start="941" selection-end="941" vertical-scroll-proportion="0.7276995" vertical-offset="0" max-vertical-offset="639">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

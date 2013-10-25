@@ -19,7 +19,14 @@ console.log(kidsUnder3);
 var kidsOver3 = prompt("How many kids over 3 feet tall do you expect?");
 console.log(kidsOver3);
 
-var totalNeeded = kidsUnder3 + kidsOver3 * 2;
+var totalCandyNeeded = candyNeeded(kidsUnder3, kidsOver3);
 
-result = (userCandy >= totalNeeded) ? "You have enough Candy" : "Better go get more candy" ;
+function candyNeeded(kidsUnder3, kidsOver3){
+    var totalCandyNeeded = Number(kidsUnder3) + (Number(kidsOver3) * 2);
+    return totalCandyNeeded;
+}
+
+console.log(totalCandyNeeded);
+
+result = (userCandy >= totalCandyNeeded) ? "You have enough Candy" : "Better go get more candy" ;
 console.log(result);
