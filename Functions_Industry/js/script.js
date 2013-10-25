@@ -45,6 +45,11 @@ function specialsSold(steak, chicken, pork){
 
 console.log(totalSpecialsSold);
 
+var over40Bonus = totalSpecialsSold * specialPrice / 5 + 20;
+console.log(over40Bonus);
+
+var bonus20_40 = totalSpecialsSold * specialPrice / 5;
+console.log(bonus20_40);
 
 
 
