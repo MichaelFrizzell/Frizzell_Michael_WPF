@@ -38,7 +38,12 @@ var totalSpecialsSold = specialsSold(steak, chicken, pork);
 var specialPrice = prompt("What is the price of the specials?");
 console.log(specialPrice);
 
+function specialsSold(steak, chicken, pork){
+    var totalSpecialsSold = Number(steak) + Number(chicken) + Number(pork);
+    return totalSpecialsSold;
+}
 
+console.log(totalSpecialsSold);
 
 
 
