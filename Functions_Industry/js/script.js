@@ -2,17 +2,6 @@
 //October 23, 2013
 //Functions_Industry
 
-//A ternary / if else shorthand / () ? true : if falseXXXX
-
-//An else ifXXXX
-
-//An anonymous / function  var a = function(){console}
-//A normal "named" functionXXXX
-
-//An expression with two arithmetic operators / >= / <= etc...
-
-//A function with three parameters / function funcName(parameter){console} push with argumentXXXX
-//At least one logical operator / && / \\ / !!XXXX
 
 //a diner has three new specials on the menu tonight
 //they want the servers to push the three specials
