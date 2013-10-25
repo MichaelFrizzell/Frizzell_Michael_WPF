@@ -14,7 +14,7 @@
 //A function with three parameters / function funcName(parameter){console} push with argumentXXXX
 //At least one logical operator / && / \\ / !!XXXX
 
-//a diner has three new specials on the menu tonite
+//a diner has three new specials on the menu tonight
 //they want the servers to push the three specials
 //the management tells the servers if they can sell 20 or more of the three specials that night they will get 5% of all the specials they sell that nite
 //If the server sells more than 40 they get an extra 20 dollars on top of the 5% bonus
@@ -24,7 +24,19 @@
 
 
 
+var steak = prompt("How many steak specials did you sell?");
+console.log(steak);
 
+var chicken = prompt("How many chicken specials did you sell?");
+console.log(chicken);
+
+var pork = prompt("How many pork specials did you sell?");
+console.log(pork);
+
+var totalSpecialsSold = specialsSold(steak, chicken, pork);
+
+var specialPrice = prompt("What is the price of the specials?");
+console.log(specialPrice);
 
 
 
