@@ -18,3 +18,6 @@ var milesPerHour = function(milesDriven, timeDriven){
     var perHour = Number(milesDriven) / Number(timeDriven);
     return perHour;
 }
+
+var result = milesPerHour(milesDriven, timeDriven);
+console.log(result);
