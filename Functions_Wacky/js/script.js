@@ -21,3 +21,14 @@ var milesPerHour = function(milesDriven, timeDriven){
 
 var result = milesPerHour(milesDriven, timeDriven);
 console.log(result);
+
+var maxPerHour = 60;
+console.log(maxPerHour);
+
+if(milesPerHour >= maxPerHour){
+    console.log("You have driven " + result + " miles.\nSLOW DOWN!");
+}else{
+    console.log("You have only driven " + result + " miles.\nSPEED UP!");
+}
+
+
