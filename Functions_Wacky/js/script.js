@@ -8,3 +8,13 @@
 //if over x amount of miles per hour tell user to slow down
 //else drive faster
 
+var milesDriven = prompt("How many miles did you drive?");
+console.log(milesDriven);
+
+var timeDriven = prompt("How many minutes did you drive?");
+console.log(timeDriven);
+
+var milesPerHour = function(milesDriven, timeDriven){
+    var perHour = Number(milesDriven) / Number(timeDriven);
+    return perHour;
+}
