@@ -13,34 +13,34 @@
 
 
 
-var steak = prompt("How many steak specials did you sell?");
-console.log(steak);
+var steak = prompt("How many steak specials did you sell?");//gets user info
+console.log(steak);//prints user info
 
-var chicken = prompt("How many chicken specials did you sell?");
-console.log(chicken);
+var chicken = prompt("How many chicken specials did you sell?");//gets user info
+console.log(chicken);//prints user info
 
-var pork = prompt("How many pork specials did you sell?");
-console.log(pork);
+var pork = prompt("How many pork specials did you sell?");//gets user info
+console.log(pork);//prints user info
 
-var totalSpecialsSold = specialsSold(steak, chicken, pork);
+var totalSpecialsSold = specialsSold(steak, chicken, pork);//sets variable for totalSpecialsSold and sets parameters for function
 
-var specialPrice = prompt("What is the price of the specials?");
-console.log(specialPrice);
+var specialPrice = prompt("What is the price of the specials?");//gets user info
+console.log(specialPrice);//prints user info
 
-function specialsSold(steak, chicken, pork){
-    var totalSpecialsSold = Number(steak) + Number(chicken) + Number(pork);
-    return totalSpecialsSold;
+function specialsSold(steak, chicken, pork){//function arguments
+    var totalSpecialsSold = Number(steak) + Number(chicken) + Number(pork);//performs function
+    return totalSpecialsSold;//returns to totalSpecialsSold
 }
 
-console.log(totalSpecialsSold);
+console.log(totalSpecialsSold);//prints to console totalSpecialsSold
 
-var over40Bonus = totalSpecialsSold * specialPrice / 5 + 20;
-console.log(over40Bonus);
+var over40Bonus = totalSpecialsSold * specialPrice / 5 + 20;//sets the bonus for over 40 sales
+console.log(over40Bonus);//prints to console
 
-var bonus20_40 = totalSpecialsSold * specialPrice / 5;
-console.log(bonus20_40);
+var bonus20_40 = totalSpecialsSold * specialPrice / 5;//sets the bonus for between 20 and 39
+console.log(bonus20_40);//prints to console
 
-if(totalSpecialsSold >= 40){
+if(totalSpecialsSold >= 40){//elseif statement
     console.log("You have sold " + totalSpecialsSold + " specials, and are eligible for a $" + over40Bonus + "dollar bonus.");
 }else if(totalSpecialsSold >= 20 && totalSpecialsSold < 40){
     console.log("You have sold " + totalSpecialsSold + " specials, and are eligible for a $" + bonus20_40 + " dollar bonus.");
