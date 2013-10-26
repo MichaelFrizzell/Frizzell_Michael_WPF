@@ -10,23 +10,23 @@
 //and X amount of over3 feet kids come
 //Do you have to get more candy
 
-var userCandy = prompt("How many peices of candy do you have?");
-console.log(userCandy);
+var userCandy = prompt("How many peices of candy do you have?");//collects user info
+console.log(userCandy);//prints user info
 
-var kidsUnder3 = prompt("How many kids under 3 feet tall do you expect?");
-console.log(kidsUnder3);
+var kidsUnder3 = prompt("How many kids under 3 feet tall do you expect?");//collects user info
+console.log(kidsUnder3);//prints user info
 
-var kidsOver3 = prompt("How many kids over 3 feet tall do you expect?");
-console.log(kidsOver3);
+var kidsOver3 = prompt("How many kids over 3 feet tall do you expect?");//collects user info
+console.log(kidsOver3);//prints user info
 
-var totalCandyNeeded = candyNeeded(kidsUnder3, kidsOver3);
+var totalCandyNeeded = candyNeeded(kidsUnder3, kidsOver3);//sets variable and parameters for function
 
-function candyNeeded(kidsUnder3, kidsOver3){
-    var totalCandyNeeded = Number(kidsUnder3) + (Number(kidsOver3) * 2);
-    return totalCandyNeeded;
+function candyNeeded(kidsUnder3, kidsOver3){//starts function, arguments
+    var totalCandyNeeded = Number(kidsUnder3) + (Number(kidsOver3) * 2);//performs function
+    return totalCandyNeeded;//returns variable to totalCandyNeeded
 }
 
-console.log(totalCandyNeeded);
+console.log(totalCandyNeeded);//prints function return
 
-result = (userCandy >= totalCandyNeeded) ? "You have enough Candy" : "Better go get more candy" ;
-console.log(result);
+result = (userCandy >= totalCandyNeeded) ? "You have enough Candy" : "Better go get more candy" ;//sets result variable
+console.log(result);prints result variable

@@ -26,7 +26,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="20" selection-start="941" selection-end="941" vertical-scroll-proportion="0.7276995" vertical-offset="0" max-vertical-offset="639">
+            <state line="28" column="54" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.657277" vertical-offset="0" max-vertical-offset="639">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -201,7 +201,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="190" width="1052" height="787" extended-state="1" />
+    <frame x="-2" y="190" width="1052" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -249,7 +249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="20" selection-start="941" selection-end="941" vertical-scroll-proportion="0.7276995" vertical-offset="0" max-vertical-offset="639">
+        <state line="28" column="54" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.657277" vertical-offset="0" max-vertical-offset="639">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
